@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="submit.html" method="post">
+
+        <!-- Student Name -->
+        <p>
+            <label>Name: </label>
+            <input type="text" name="name"
+                   placeholder="Enter Name" required>
+        </p>
+
+        <!-- Email -->
+        <p>
+            <label>Email: </label>
+            <input type="email" name="email"
+                   placeholder="Enter Email" required>
+        </p>
+
+        <!-- Contact Number -->
+        <p>
+            <label>Contact No: </label>
+            <input type="tel" name="contact"
+                   placeholder="Enter phone number" required>
+        </p>
+
+        <!-- Address -->
+        <p>
+            <label>Address: </label><br>
+            <textarea name="address" rows="4" cols="40"
+                      placeholder="Enter your address" required></textarea>
+        </p>
+
+        <!-- Submit and Reset -->
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </p>
+
+    </form>
+
+    <hr>
+
+    <p align="center">
+        &copy; 2025 Student Registration Portal
+    </p>
+
+</body>
+</html>
